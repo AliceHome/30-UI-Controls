@@ -136,7 +136,7 @@ open class TwicketSegmentedControl: UIControl {
     }
     
     
-    /// 追加子视图
+    /// 添加子视图
     private func setup() {
         addSubview(containerView)
         
