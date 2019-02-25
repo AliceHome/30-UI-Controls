@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F510D6C72222B24500F180E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510D6C62222B24500F180E0 /* AppDelegate.swift */; };
+		F510D6C92222B24500F180E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510D6C82222B24500F180E0 /* ViewController.swift */; };
+		F510D6CC2222B24500F180E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F510D6CA2222B24500F180E0 /* Main.storyboard */; };
+		F510D6CE2222B24600F180E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F510D6CD2222B24600F180E0 /* Assets.xcassets */; };
+		F510D6D12222B24600F180E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F510D6CF2222B24600F180E0 /* LaunchScreen.storyboard */; };
+		F510D6DA2222B3FF00F180E0 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510D6D92222B3FF00F180E0 /* Palette.swift */; };
+		F510D6DC2222B63100F180E0 /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510D6DB2222B63100F180E0 /* UIViewShadowExtension.swift */; };
+		F510D6DE2222B6AE00F180E0 /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510D6DD2222B6AE00F180E0 /* TwicketSegmentedControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F510D6C32222B24500F180E0 /* TwicketSeementedControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwicketSeementedControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F510D6C62222B24500F180E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F510D6C82222B24500F180E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F510D6CB2222B24500F180E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F510D6CD2222B24600F180E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F510D6D02222B24600F180E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F510D6D22222B24600F180E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F510D6D92222B3FF00F180E0 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		F510D6DB2222B63100F180E0 /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadowExtension.swift; sourceTree = "<group>"; };
+		F510D6DD2222B6AE00F180E0 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwicketSegmentedControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F510D6C02222B24500F180E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F510D6BA2222B24500F180E0 = {
+			isa = PBXGroup;
+			children = (
+				F510D6C52222B24500F180E0 /* TwicketSeementedControlDemo */,
+				F510D6C42222B24500F180E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F510D6C42222B24500F180E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F510D6C32222B24500F180E0 /* TwicketSeementedControlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F510D6C52222B24500F180E0 /* TwicketSeementedControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F510D6D82222B3CB00F180E0 /* TwicketSegmentControl */,
+				F510D6C62222B24500F180E0 /* AppDelegate.swift */,
+				F510D6C82222B24500F180E0 /* ViewController.swift */,
+				F510D6CA2222B24500F180E0 /* Main.storyboard */,
+				F510D6CD2222B24600F180E0 /* Assets.xcassets */,
+				F510D6CF2222B24600F180E0 /* LaunchScreen.storyboard */,
+				F510D6D22222B24600F180E0 /* Info.plist */,
+			);
+			path = TwicketSeementedControlDemo;
+			sourceTree = "<group>";
+		};
+		F510D6D82222B3CB00F180E0 /* TwicketSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				F510D6D92222B3FF00F180E0 /* Palette.swift */,
+				F510D6DB2222B63100F180E0 /* UIViewShadowExtension.swift */,
+				F510D6DD2222B6AE00F180E0 /* TwicketSegmentedControl.swift */,
+			);
+			path = TwicketSegmentControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F510D6C22222B24500F180E0 /* TwicketSeementedControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F510D6D52222B24600F180E0 /* Build configuration list for PBXNativeTarget "TwicketSeementedControlDemo" */;
+			buildPhases = (
+				F510D6BF2222B24500F180E0 /* Sources */,
+				F510D6C02222B24500F180E0 /* Frameworks */,
+				F510D6C12222B24500F180E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwicketSeementedControlDemo;
+			productName = TwicketSeementedControlDemo;
+			productReference = F510D6C32222B24500F180E0 /* TwicketSeementedControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F510D6BB2222B24500F180E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Maple;
+				TargetAttributes = {
+					F510D6C22222B24500F180E0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F510D6BE2222B24500F180E0 /* Build configuration list for PBXProject "TwicketSeementedControlDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F510D6BA2222B24500F180E0;
+			productRefGroup = F510D6C42222B24500F180E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F510D6C22222B24500F180E0 /* TwicketSeementedControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F510D6C12222B24500F180E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510D6D12222B24600F180E0 /* LaunchScreen.storyboard in Resources */,
+				F510D6CE2222B24600F180E0 /* Assets.xcassets in Resources */,
+				F510D6CC2222B24500F180E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F510D6BF2222B24500F180E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510D6DA2222B3FF00F180E0 /* Palette.swift in Sources */,
+				F510D6C92222B24500F180E0 /* ViewController.swift in Sources */,
+				F510D6DC2222B63100F180E0 /* UIViewShadowExtension.swift in Sources */,
+				F510D6C72222B24500F180E0 /* AppDelegate.swift in Sources */,
+				F510D6DE2222B6AE00F180E0 /* TwicketSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F510D6CA2222B24500F180E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F510D6CB2222B24500F180E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F510D6CF2222B24600F180E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F510D6D02222B24600F180E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F510D6D32222B24600F180E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F510D6D42222B24600F180E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F510D6D62222B24600F180E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722KJB9L65;
+				INFOPLIST_FILE = TwicketSeementedControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maple.www.TwicketSeementedControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F510D6D72222B24600F180E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722KJB9L65;
+				INFOPLIST_FILE = TwicketSeementedControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maple.www.TwicketSeementedControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F510D6BE2222B24500F180E0 /* Build configuration list for PBXProject "TwicketSeementedControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510D6D32222B24600F180E0 /* Debug */,
+				F510D6D42222B24600F180E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F510D6D52222B24600F180E0 /* Build configuration list for PBXNativeTarget "TwicketSeementedControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510D6D62222B24600F180E0 /* Debug */,
+				F510D6D72222B24600F180E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F510D6BB2222B24500F180E0 /* Project object */;
+}
