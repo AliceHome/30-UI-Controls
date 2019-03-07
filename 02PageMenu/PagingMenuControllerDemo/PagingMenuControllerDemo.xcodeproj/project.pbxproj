@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51FF41822257B840075C803 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF41722257B840075C803 /* PagingMenuControllerCustomizable.swift */; };
+		F51FF41A2226B14E0075C803 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF4192226B14E0075C803 /* MenuViewCustomizable.swift */; };
+		F51FF41C2226BAAF0075C803 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF41B2226BAAF0075C803 /* MenuItemViewCustomizable.swift */; };
+		F51FF41E2226C3DC0075C803 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF41D2226C3DC0075C803 /* Pagable.swift */; };
+		F51FF420222D2C8B0075C803 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF41F222D2C8B0075C803 /* PagingMenuController.swift */; };
+		F51FF422222D2CA90075C803 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF421222D2CA90075C803 /* MenuView.swift */; };
+		F51FF424222D2CB60075C803 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FF423222D2CB60075C803 /* MenuItemView.swift */; };
 		F5F308CE222571EF00300A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F308CD222571EF00300A02 /* AppDelegate.swift */; };
-		F5F308D0222571EF00300A02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F308CF222571EF00300A02 /* ViewController.swift */; };
+		F5F308D0222571EF00300A02 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F308CF222571EF00300A02 /* RootViewController.swift */; };
 		F5F308D3222571EF00300A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F308D1222571EF00300A02 /* Main.storyboard */; };
 		F5F308D5222571F000300A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F308D4222571F000300A02 /* Assets.xcassets */; };
 		F5F308D8222571F000300A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F308D6222571F000300A02 /* LaunchScreen.storyboard */; };
+		F5F308E12225783600300A02 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F308E02225783600300A02 /* PagingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F51FF41722257B840075C803 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		F51FF4192226B14E0075C803 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		F51FF41B2226BAAF0075C803 /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		F51FF41D2226C3DC0075C803 /* Pagable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagable.swift; sourceTree = "<group>"; };
+		F51FF41F222D2C8B0075C803 /* PagingMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuController.swift; sourceTree = "<group>"; };
+		F51FF421222D2CA90075C803 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F51FF423222D2CB60075C803 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		F5F308CA222571EF00300A02 /* PagingMenuControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingMenuControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F308CD222571EF00300A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5F308CF222571EF00300A02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5F308CF222571EF00300A02 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F5F308D2222571EF00300A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5F308D4222571F000300A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5F308D7222571F000300A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5F308D9222571F000300A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F308E02225783600300A02 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F51FF41622257B6C0075C803 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F51FF41722257B840075C803 /* PagingMenuControllerCustomizable.swift */,
+				F51FF41B2226BAAF0075C803 /* MenuItemViewCustomizable.swift */,
+				F51FF4192226B14E0075C803 /* MenuViewCustomizable.swift */,
+				F51FF41D2226C3DC0075C803 /* Pagable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		F5F308C1222571EF00300A02 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +81,27 @@
 		F5F308CC222571EF00300A02 /* PagingMenuControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F5F308DF2225781D00300A02 /* PagingMenuController */,
 				F5F308CD222571EF00300A02 /* AppDelegate.swift */,
-				F5F308CF222571EF00300A02 /* ViewController.swift */,
+				F5F308CF222571EF00300A02 /* RootViewController.swift */,
 				F5F308D1222571EF00300A02 /* Main.storyboard */,
 				F5F308D4222571F000300A02 /* Assets.xcassets */,
 				F5F308D6222571F000300A02 /* LaunchScreen.storyboard */,
 				F5F308D9222571F000300A02 /* Info.plist */,
 			);
 			path = PagingMenuControllerDemo;
+			sourceTree = "<group>";
+		};
+		F5F308DF2225781D00300A02 /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				F51FF41622257B6C0075C803 /* Protocols */,
+				F5F308E02225783600300A02 /* PagingViewController.swift */,
+				F51FF41F222D2C8B0075C803 /* PagingMenuController.swift */,
+				F51FF421222D2CA90075C803 /* MenuView.swift */,
+				F51FF423222D2CB60075C803 /* MenuItemView.swift */,
+			);
+			path = PagingMenuController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F308D0222571EF00300A02 /* ViewController.swift in Sources */,
+				F51FF41C2226BAAF0075C803 /* MenuItemViewCustomizable.swift in Sources */,
+				F5F308E12225783600300A02 /* PagingViewController.swift in Sources */,
+				F5F308D0222571EF00300A02 /* RootViewController.swift in Sources */,
+				F51FF41A2226B14E0075C803 /* MenuViewCustomizable.swift in Sources */,
+				F51FF424222D2CB60075C803 /* MenuItemView.swift in Sources */,
+				F51FF422222D2CA90075C803 /* MenuView.swift in Sources */,
+				F51FF420222D2C8B0075C803 /* PagingMenuController.swift in Sources */,
+				F51FF41822257B840075C803 /* PagingMenuControllerCustomizable.swift in Sources */,
 				F5F308CE222571EF00300A02 /* AppDelegate.swift in Sources */,
+				F51FF41E2226C3DC0075C803 /* Pagable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722KJB9L65;
 				INFOPLIST_FILE = PagingMenuControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722KJB9L65;
 				INFOPLIST_FILE = PagingMenuControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

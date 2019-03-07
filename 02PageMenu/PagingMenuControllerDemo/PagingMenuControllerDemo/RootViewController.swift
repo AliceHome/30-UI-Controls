@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  PagingMenuControllerDemo
 //
 //  Created by Maple on 2019/2/26.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
 
 }
 
